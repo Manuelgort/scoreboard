@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="setName"  class="scoreBoardTop">
+    <h2>Scoreboard</h2>
+    <p>Vul uw namen in!</p>
+    <div class="firstNameHolder">
+         <label for="firstName">Player 1 : </label>
+         <input type="text" id="firstName">
+    </div>
+    <div class="secondNameHolder">
+         <label for="SecondName">Player 2 : </label>
+         <input type="text"  id="secondName">
+    </div>
+    <div class="thirdNameHolder">
+        <label for="SecondName">Spellen tot : </label>
+        <input type="number" id="number" value="5">
+    </div>
+
+
+
+    <button id="resetNames" class="btn-top">reset name</button>
+    <button id="startGame" class="btn-top">Start Game</button>
+</div>
+<div id="scoreBoard" class="scoreBoard">
+    <h2>Scoreboard</h2>
+    <p>We spellen tot: <span id="setScore">5</span></p>
+    <div id="winnaar"></div>
+    <table>
+        <tr>
+            <td>
+                <h3><span id="setFirstName">player 1</span></h3>
+            </td>
+            <td>
+                <h3>-</h3>
+            </td>
+            <td>
+                <h3><span id="setSecondName">Player 2</span></h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3 class="Hbig"><span id="p1Display">0</span></h3>
+            </td>
+            <td>
+                <h3 class="Hbig">-</h3>
+            </td>
+            <td>
+                <h3 class="Hbig"><span id="p2Display">0</span></h3>
+            </td>
+        </tr>
+
+    </table>
+
+
+
+
+    <button id="resetNames1" class="btn-top">reset name</button>
+    <button id="reset" class="btn-top">reset</button>
+    <button id="verander" class="btn-top">Verander score</button>
+    <button id="player2Name" class="p2 btn-top" >Player 2</button>
+    <button id="player1Name" class="p1 btn-top">Player 1</button>
+
+
+
+
+</div>
+
+
+
+
+
+
+<script type="text/javascript" src="js/score.js"></script>
+
+</body>
+</html>

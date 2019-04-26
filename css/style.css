@@ -1,0 +1,112 @@
+body {
+    background-color: #f29200;
+}
+ .scoreBoard, .scoreBoardTop{
+     width: 800px;
+     margin:0 auto;
+     background-color: white;
+     border: 2px solid #992600;
+     overflow: hidden;
+     background-color: #7c7c7c;
+     padding: 5px;
+ }
+
+.scoreBoardTop h2, .scoreBoard h2{
+    text-align: center;
+    color: #f29200;
+    margin-bottom: 3px;
+}
+p {
+    margin-top: 0px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.firstNameHolder, .secondNameHolder, .thirdNameHolder{
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.visable {
+    display: block;
+    visibility: visible;
+}
+
+.btn-top {
+    float: right;
+    margin-top: 35px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    background-color: #f29200;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Arial;
+    text-shadow:1px 1px 2px  #bdc3c7;
+}
+.btn-top:hover{
+    background-color: rgb(255, 200, 6);
+}
+
+.hidden{
+     display: none;
+    height: 0px;
+ }
+ .color{
+     background-color: #9b59b6;
+ }
+  table, tr {
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+  }
+  td {
+      margin: 0px;
+      padding: 0px;
+  }
+ td:nth-child(1n){
+     width: 45%;
+     text-align: right;
+     padding-right: 5px;
+  }
+td:nth-child(2n){
+    width: 10%;
+    text-align: center;
+}
+td:nth-child(3n){
+    width: 45%;
+    text-align: left;
+    padding-left: 5px;
+}
+.scoreBoard h3 {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+.Hbig {
+    font-size: 24px;
+}
+#winnaar {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #0bf95e;
+}
+.winnerColor {
+    color: #0bf95e;
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        font-size: 16px;
+        color: #0BA449;
+
+    }
+}
+label {
+    width: 130px;
+}
